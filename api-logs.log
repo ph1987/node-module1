@@ -18,3 +18,85 @@
 2024-02-28T04:36:33.125Z [api-logs] info: API started!
 2024-02-28T04:39:20.070Z [api-logs] info: API started!
 2024-02-28T04:45:39.685Z [api-logs] info: API started!
+2024-03-01T04:05:13.068Z [api-logs] info: API started!
+2024-03-01T04:05:55.242Z [api-logs] info: POST /account - {"id":5,"name":"Harry Maguire","balance":85}
+2024-03-01T04:06:45.308Z [api-logs] info: GET /account
+2024-03-01T04:29:29.962Z [api-logs] info: API started!
+2024-03-01T04:33:45.461Z [api-logs] info: API started!
+2024-03-01T04:33:56.769Z [api-logs] info: API started!
+2024-03-01T04:35:09.776Z [api-logs] info: API started!
+2024-03-01T04:35:11.914Z [api-logs] info: API started!
+2024-03-01T04:35:18.772Z [api-logs] info: API started!
+2024-03-01T04:36:22.949Z [api-logs] info: API started!
+2024-03-01T04:36:30.606Z [api-logs] info: API started!
+2024-03-01T04:42:26.176Z [api-logs] info: POST /account - {"id":6,"name":"Orez Raey","balance":15}
+2024-03-01T04:42:36.865Z [api-logs] info: GET /account
+2024-03-01T04:46:17.339Z [api-logs] info: API started!
+2024-03-01T04:46:18.454Z [api-logs] info: API started!
+2024-03-01T04:46:24.438Z [api-logs] info: GET /account
+2024-03-01T04:46:25.260Z [api-logs] info: GET /account
+2024-03-01T04:46:37.027Z [api-logs] info: API started!
+2024-03-01T04:55:58.783Z [api-logs] info: API started!
+2024-03-01T04:56:03.107Z [api-logs] info: API started!
+2024-03-01T04:56:09.873Z [api-logs] info: GET /account
+2024-03-01T04:57:20.549Z [api-logs] info: API started!
+2024-03-01T04:57:27.101Z [api-logs] info: GET /account/1
+2024-03-01T04:57:29.848Z [api-logs] info: GET /account/1
+2024-03-01T04:57:46.362Z [api-logs] info: API started!
+2024-03-01T04:57:51.587Z [api-logs] info: API started!
+2024-03-01T04:58:28.892Z [api-logs] info: API started!
+2024-03-01T04:58:34.299Z [api-logs] info: GET /account/1
+2024-03-01T04:58:54.068Z [api-logs] info: API started!
+2024-03-01T04:59:03.916Z [api-logs] info: GET /account/1
+2024-03-01T04:59:26.470Z [api-logs] info: API started!
+2024-03-01T04:59:29.784Z [api-logs] info: GET /account/1
+2024-03-01T04:59:46.768Z [api-logs] info: API started!
+2024-03-01T04:59:49.951Z [api-logs] info: GET /account/1
+2024-03-01T05:00:21.988Z [api-logs] info: API started!
+2024-03-01T05:00:24.390Z [api-logs] info: GET /account/1
+2024-03-01T05:00:24.742Z [api-logs] info: GET /account/1
+2024-03-01T05:04:22.727Z [api-logs] info: API started!
+2024-03-01T05:04:25.861Z [api-logs] info: API started!
+2024-03-01T05:07:25.576Z [api-logs] info: API started!
+2024-03-01T05:08:42.128Z [api-logs] info: API started!
+2024-03-01T05:09:09.846Z [api-logs] info: GET /account
+2024-03-01T05:09:31.332Z [api-logs] info: PUT /account - {"name":"Kimbo Slice","balance":10}
+2024-03-01T05:38:03.717Z [api-logs] info: API started!
+2024-03-01T05:38:17.949Z [api-logs] info: API started!
+2024-03-01T05:38:25.790Z [api-logs] info: API started!
+2024-03-01T05:40:46.748Z [api-logs] info: API started!
+2024-03-01T05:42:26.044Z [api-logs] info: GET /account
+2024-03-01T05:46:33.023Z [api-logs] info: API started!
+2024-03-01T05:46:53.263Z [api-logs] info: API started!
+2024-03-01T05:47:39.276Z [api-logs] info: API started!
+2024-03-01T05:47:45.470Z [api-logs] info: API started!
+2024-03-01T05:47:55.061Z [api-logs] info: API started!
+2024-03-01T05:48:06.881Z [api-logs] info: API started!
+2024-03-01T05:48:42.098Z [api-logs] info: POST /account - {"id":7,"name":"Adenor Tite","balance":200}
+2024-03-01T05:48:48.407Z [api-logs] info: GET /account
+2024-03-01T05:48:51.440Z [api-logs] info: GET /account/7
+2024-03-01T05:48:55.273Z [api-logs] info: GET /account
+2024-03-01T05:49:05.722Z [api-logs] error: AccountService.updatedBalance is not a function
+2024-03-01T05:49:32.740Z [api-logs] info: API started!
+2024-03-01T05:49:40.513Z [api-logs] error: req is not defined
+2024-03-01T05:50:04.723Z [api-logs] info: API started!
+2024-03-01T05:50:16.288Z [api-logs] info: API started!
+2024-03-01T05:50:27.087Z [api-logs] info: API started!
+2024-03-01T05:50:33.094Z [api-logs] info: API started!
+2024-03-01T05:50:37.737Z [api-logs] info: PATCH /account - {"balance":225}
+2024-03-01T05:50:43.998Z [api-logs] info: GET /account
+2024-03-01T05:51:03.342Z [api-logs] info: PUT /account - {"name":"Janco Tianno","balance":10}
+2024-03-01T05:51:07.511Z [api-logs] info: GET /account
+2024-03-01T05:51:29.189Z [api-logs] info: POST /account - {"id":8,"name":"Gangsta Paradise","balance":500}
+2024-03-01T05:51:34.348Z [api-logs] info: GET /account
+2024-03-01T05:51:44.381Z [api-logs] error: account is not defined
+2024-03-01T05:53:50.245Z [api-logs] info: API started!
+2024-03-01T05:54:44.106Z [api-logs] info: API started!
+2024-03-01T05:54:55.061Z [api-logs] error: ID não encontrado
+2024-03-01T05:55:00.886Z [api-logs] info: GET /account
+2024-03-01T05:55:25.259Z [api-logs] info: POST /account - {"id":9,"name":"Jumento troncudo","balance":100}
+2024-03-01T05:55:30.767Z [api-logs] info: DELETE /account - {"id":9,"name":"Jumento troncudo","balance":100}
+2024-03-01T05:56:52.499Z [api-logs] info: API started!
+2024-03-01T05:57:19.091Z [api-logs] info: API started!
+2024-03-01T05:57:35.536Z [api-logs] info: POST /account - {"id":10,"name":"Zé Buscapé","balance":44}
+2024-03-01T05:57:39.584Z [api-logs] info: GET /account
