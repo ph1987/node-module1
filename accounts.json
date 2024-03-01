@@ -1,0 +1,20 @@
+{
+  "nextId": 5,
+  "accounts": [
+    {
+      "id": 1,
+      "name": "José Sidésio",
+      "balance": 35
+    },
+    {
+      "id": 2,
+      "name": "Depaera",
+      "balance": 60
+    },
+    {
+      "id": 3,
+      "name": "Rico Salamar",
+      "balance": 45
+    }
+  ]
+}
