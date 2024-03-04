@@ -28,6 +28,7 @@ async function deleteAccount(id) {
 }
 
 async function updateAccount(account, id) {
+  console.log(id, account);
   if (!account.name || !account.balance == null) {
     throw new Error("Name e Balance são obrigatórios.");
   }
