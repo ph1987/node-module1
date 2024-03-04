@@ -100,3 +100,49 @@
 2024-03-01T05:57:19.091Z [api-logs] info: API started!
 2024-03-01T05:57:35.536Z [api-logs] info: POST /account - {"id":10,"name":"Zé Buscapé","balance":44}
 2024-03-01T05:57:39.584Z [api-logs] info: GET /account
+2024-03-03T04:37:22.137Z [api-logs] info: API started!
+2024-03-03T04:37:27.781Z [api-logs] info: API started!
+2024-03-03T04:38:48.526Z [api-logs] info: API started!
+2024-03-03T05:59:49.574Z [api-logs] info: API started!
+2024-03-03T06:01:35.672Z [api-logs] info: API started!
+2024-03-03T06:01:37.099Z [api-logs] info: API started!
+2024-03-03T06:03:54.549Z [api-logs] info: API started!
+2024-03-03T06:05:59.496Z [api-logs] info: API started!
+2024-03-03T06:06:49.882Z [api-logs] info: GET /account
+2024-03-03T06:07:03.948Z [api-logs] info: GET /account
+2024-03-03T06:08:17.584Z [api-logs] info: API started!
+2024-03-03T06:08:37.480Z [api-logs] info: API started!
+2024-03-03T06:09:08.075Z [api-logs] info: API started!
+2024-03-03T06:10:55.289Z [api-logs] info: API started!
+2024-03-03T06:11:15.144Z [api-logs] info: POST /account - {"id":11,"name":"Maria Magdalena","balance":35}
+2024-03-03T06:13:11.852Z [api-logs] info: API started!
+2024-03-03T06:13:59.795Z [api-logs] info: API started!
+2024-03-03T06:15:00.688Z [api-logs] info: API started!
+2024-03-03T06:15:37.705Z [api-logs] info: API started!
+2024-03-03T06:16:01.694Z [api-logs] info: GET /account
+2024-03-03T06:16:04.820Z [api-logs] info: GET /account/11
+2024-03-03T06:16:07.570Z [api-logs] error: ID não encontrado!
+2024-03-03T06:16:10.689Z [api-logs] info: GET /account/11
+2024-03-03T06:18:18.352Z [api-logs] info: API started!
+2024-03-03T06:18:48.853Z [api-logs] info: API started!
+2024-03-03T06:20:32.930Z [api-logs] info: API started!
+2024-03-03T06:21:01.614Z [api-logs] info: API started!
+2024-03-03T06:21:33.991Z [api-logs] info: API started!
+2024-03-03T06:21:49.284Z [api-logs] info: API started!
+2024-03-03T06:22:10.166Z [api-logs] info: API started!
+2024-03-03T06:22:38.496Z [api-logs] info: API started!
+2024-03-03T06:30:07.805Z [api-logs] info: API started!
+2024-03-03T06:30:11.526Z [api-logs] info: API started!
+2024-03-03T06:30:13.246Z [api-logs] info: API started!
+2024-03-03T06:32:06.822Z [api-logs] info: POST /account - {"id":12,"name":"Deleta eu","balance":35}
+2024-03-03T06:32:09.931Z [api-logs] info: GET /account/11
+2024-03-03T06:32:12.564Z [api-logs] info: GET /account/12
+2024-03-03T06:32:15.050Z [api-logs] info: GET /account/12
+2024-03-03T06:32:29.055Z [api-logs] info: GET /account
+2024-03-03T06:32:31.204Z [api-logs] info: GET /account
+2024-03-03T06:33:02.222Z [api-logs] info: PUT /account - {"name":"Zakk","balance":10}
+2024-03-03T06:33:05.167Z [api-logs] info: GET /account
+2024-03-03T06:33:15.752Z [api-logs] info: PATCH /account - {"balance":600}
+2024-03-03T06:33:18.676Z [api-logs] info: GET /account
+2024-03-03T06:33:26.028Z [api-logs] info: DELETE /account - {"id":12,"name":"Zakk","balance":600}
+2024-03-03T06:33:28.701Z [api-logs] info: GET /account

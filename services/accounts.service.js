@@ -1,80 +1,44 @@
-/* eslint-disable no-undef */
-import { promises as fs } from "fs";
-const { readFile, writeFile } = fs;
+import AccountRepository from "../repositories/accounts.repository.js";
 
 async function createAccount(account) {
   if (!account.name || !account.balance == null) {
     throw new Error("Name e Balance são obrigatórios.");
   }
-  
-  const data = JSON.parse(await readFile(jsonFile));
-  account = {
-    id: data.nextId,
-    name: account.name,
-    balance: account.balance,
-  };
-  data.nextId++;
-  data.accounts.push(account);
-  await writeFile(jsonFile, JSON.stringify(data, null, 2));
-  return account;
+  const accountCreated = await AccountRepository.createAccount(account);
+  if (accountCreated) {
+    return accountCreated;
+  }
+  throw new Error("Erro ao inserir registro!");
 }
 
 async function getAccounts() {
-  const data = JSON.parse(await readFile(jsonFile));
-  delete data.nextId;
-  return data;
+  return await AccountRepository.getAccounts();
 }
 
 async function getAccountById(id) {
-  const data = JSON.parse(await readFile(jsonFile));
-  const account = data.accounts.find(account => account.id == id);
-  return account;
+  const account = await AccountRepository.getAccountById(id);
+  if (account) {
+    return account;
+  }
+  throw new Error("ID não encontrado!");
 }
 
 async function deleteAccount(id) {
-  const data = JSON.parse(await readFile(jsonFile));
-  const requestedId = parseInt(id);
-  data.accounts = data.accounts.filter(account => account.id !== requestedId);
-  await writeFile(jsonFile, JSON.stringify(data, null, 2));
+  return await AccountRepository.deleteAccount(id);
 }
 
 async function updateAccount(account, id) {
   if (!account.name || !account.balance == null) {
     throw new Error("Name e Balance são obrigatórios.");
   }
-
-  const data = JSON.parse(await readFile(jsonFile));
-  const requestedId = parseInt(id);
-  const index = data.accounts.findIndex(account => account.id === requestedId);
-
-  if (index === -1) {
-    throw new Error("Registro não encontrado");
-  }
-
-  data.accounts[index].name  = account.name;
-  data.accounts[index].balance = account.balance;
-  await writeFile(jsonFile, JSON.stringify(data, null, 2));
-  const updatedAccount = data.accounts[index];
-  return updatedAccount;
+  return await AccountRepository.updateAccount(account, id);
 }
 
 async function updateBalance(account, id) {
   if (account.balance == null) {
     throw new Error("Balance é obrigatório");
   }
-  
-  const data = JSON.parse(await readFile(jsonFile));
-  const requestedId = parseInt(id);
-  const index = data.accounts.findIndex(account => account.id === requestedId);
-
-  if (index === -1) {
-    throw new Error("Registro não encontrado");
-  }
-
-  data.accounts[index].balance = account.balance;
-  await writeFile(jsonFile, JSON.stringify(data, null, 2));
-  const updatedAccount = data.accounts[index];
-  return updatedAccount;
+  return await AccountRepository.updateBalance(account, id);
 }
 
 export default { 
